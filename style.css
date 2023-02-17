@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  height: 100%;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+:root{
+--Violet: hsl(257, 40%, 49%);
+--SoftMagenta: hsl(300, 69%, 71%);
+}
+
+.contenedor{
+  height: 100%;
+  width: 425px;
+  margin: auto auto;
+  background-image: url(./images/bg-mobile.svg);
+  background-color: var(--Violet);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+
+}
+
+header img{
+  width: 150px;
+  padding-bottom: 55px;
+  
+}
+
+.imagen img{
+  width: 345px;
+  padding-bottom: 60px;
+}
+
+.title{
+  width: 300px;
+  margin: auto auto;
+  text-align: center;
+}
+
+.text .title h2{
+  color:white;
+  font-size: 29px;
+  font-family: sans-serif;
+  line-height: 40px;
+  padding-bottom: 25px;
+}
+.contenido p{
+  color: white;
+  font-family: Poppins;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 28px;
+  padding-bottom: 25px;
+}
+
+.registrer button{
+  width: 230px;
+  height: 50px;
+  border-radius: 30px;
+  color: var(--Violet);
+  font-size: 14px;
+}
+
+.registrer{
+  text-align: center;
+  padding-bottom: 110px;
+  
+}
+
+.iconos{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .facebook{
+border: 1px solid white;
+border-radius: 20px;
+width: 30px;
+height: 30px;
+display: flex;
+align-items: center;
+justify-content: center;
+} */
+
+.facebook{
+  border: 2px solid white;
+  border-radius: 30px;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+
+/* .twitter{
+border: 1px solid white;
+border-radius: 20px;
+width: 30px;
+height: 30px;
+display: flex;
+align-items: center;
+justify-content: center;
+} */
+
+.twitter{
+  border: 2px solid white;
+  border-radius: 30px;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+/* .instagram{
+border: 1px solid white;
+border-radius: 20px;
+width: 30px;
+height: 30px;
+display: flex;
+align-items: center;
+justify-content: center;
+} */
+
+.instagram{
+  border: 2px solid white;
+  border-radius: 30px;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+
+.instagram img{
+  width: 25px;
+}
+
+.twitter img{
+  width: 17px;
+}
+
+.facebook img{
+  width: 15px;
+}
+
+@media all  and (min-width:1440px){
+.contenedor{
+  height: 100%;
+  width: 100%;
+  padding-top: 60px;
+  padding-left: 80px;
+  padding-right: 80px;
+  background-image:url(./images/bg-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+header img{
+  width: 250px;
+  padding-bottom: 95px;
+}
+.imagen img{
+  width: 900px;
+  padding-right: 50px;
+}
+.container{
+  display: flex;
+}
+.text{
+  padding-top:50px;
+  padding-bottom: 0;
+}
+.text .title h2{
+font-size: 46px;
+line-height: 70px;
+text-align: left;
+ 
+}
+.title{
+  width: 500px;
+  margin: 0;
+  
+}
+
+.contenido p{
+  text-align: left;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  padding-bottom: 25px;
+  width: 620px;
+}
+
+.registrer button{
+  width: 220px;
+  height: 65px;
+  font-size: 18px;
+}
+
+
+.registrer{
+text-align: left;
+}
+
+.iconos{
+  padding-right: 230px;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-bottom: 140px;
+}
+
+.facebook{
+  border: 2px solid white;
+  border-radius: 30px;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  
+  .twitter{
+  border: 2px solid white;
+  border-radius: 30px;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  
+  .instagram{
+  border: 2px solid white;
+  border-radius: 30px;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+.instagram img{
+  width: 35px;
+}
+
+.twitter img{
+  width: 22px;
+}
+
+.facebook img{
+  width: 25px;
+}
+
+.registrer button:hover{
+color: white;
+background-color:var(--SoftMagenta);
+}
+
+.facebook:hover{
+  border: 2px solid var(--SoftMagenta)
+
+}
+
+.facebook svg :hover{
+  fill: var(--SoftMagenta);
+}
+
+.instagram:hover{
+  border: 2px solid var(--SoftMagenta)
+}
+
+.twitter svg :hover{
+  fill: var(--SoftMagenta);
+}
+
+.instagram svg :hover{
+  fill: var(--SoftMagenta);
+}
+
+
+.twitter:hover{
+  border: 2px solid var(--SoftMagenta)
+}
+}
